@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: blue;
+    margin-left: 40%;
+    margin-top: 30px;
+    font-size: 80px;
+}
+
+.container {
+    display: flex;
+    background-color: lavender;
+}
+
+.box {
+    padding: 15px;
+    border: 2px solid black;
+    color: white;
+}
+
+.bg-darkviolet {
+    background-color: darkviolet;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.bg-darksalmon {
+    background-color: darksalmon;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.box_item1 {
+    order: 3;
+}
+
+.box_item2 {
+    order: 2;
+}
+
+.box_item3 {
+    order: 1;
+}
+
+@media(max-width: 426px) {
+    .title {
+        font-size: 40px;
+        margin-left: 32%;
+        margin-top: 20px;
+    }
+    .container {
+        flex-direction: row-reverse;
+    }
+    .box {
+        padding: 10px;
+        height: 250px;
+    }
+}
